@@ -1,0 +1,33 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "I'm a starter theme for Astro.build",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-12">About</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			Welcome. I am a passionate IT professional specializing in network security and ethical hacking. My goal is to help organizations build secure and resilient systems.
+		</p>
+		<p>Here are some of my core competencies:</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>Network Security & Hardening</li>
+			<li>Penetration Testing & Vulnerability Assessment</li>
+			<li>System & Server Administration</li>
+			<li>Incident Response & Forensics</li>
+			<li>Scripting & Automation (Python, Bash)</li>
+		</ul>
+		<p>
+			Feel free to browse my projects and get in touch. You can find my work on <a
+				class="cactus-link inline-block"
+				href="https://github.com"
+				rel="noreferrer"
+				target="_blank">GitHub</a
+			>.
+		</p>
+	</div>
+</PageLayout>
