@@ -1,6 +1,6 @@
 ---
-import SocialList from "@/components/SocialList.astro";
 import { menuLinks, siteConfig } from "@/site.config";
+import { Icon } from "astro-icon/components"; // Added Icon import
 
 const year = new Date().getFullYear();
 ---
@@ -25,9 +25,15 @@ const year = new Date().getFullYear();
 					</a>
 				))
 			}
+			<a
+				class="hover:text-global-text px-4 py-2 hover:underline sm:py-0"
+				href="https://www.youtube.com/@aDJProdxn"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<Icon aria-hidden="true" class="h-6 w-6" focusable="false" name="mdi:youtube" />
+				<span class="sr-only">YouTube</span>
+			</a>
 		</nav>
-		<div class="sm:-mt-1 sm:border-l sm:border-gray-500 sm:pl-4">
-			<SocialList />
-		</div>
 	</div>
 </footer>
