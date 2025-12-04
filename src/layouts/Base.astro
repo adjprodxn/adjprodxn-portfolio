@@ -20,17 +20,18 @@ const {
 	<head>
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 	</head>
-	<body
-		class="text-global-text flex min-h-screen flex-col font-mono text-sm font-normal antialiased"
-	>
-		<div class="mx-auto w-full max-w-3xl bg-black/70 px-4 pt-16 sm:px-8">
-			<ThemeProvider />
-			<SkipLink />
-			<Header />
-					<main id="main" class="flex-grow">
-						<slot />
-					</main>			<Footer />
-		</div>
+		<body
+			class="text-global-text flex min-h-screen flex-col font-mono text-sm font-normal antialiased"
+		>
+			<div class="mx-auto w-full max-w-3xl bg-black/70 px-4 pt-16 sm:px-8 flex-grow">
+				<ThemeProvider />
+				<SkipLink />
+				<Header />
+				<main id="main">
+					<slot />
+				</main>
+				<Footer />
+			</div>
 		<script is:inline type="speculationrules">
 			{
 				"prefetch": [
