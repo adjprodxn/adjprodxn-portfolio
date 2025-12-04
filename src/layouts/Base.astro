@@ -27,10 +27,9 @@ const {
 			<ThemeProvider />
 			<SkipLink />
 			<Header />
-			<main id="main">
-				<slot />
-			</main>
-			<Footer />
+					<main id="main" class="flex-grow">
+						<slot />
+					</main>			<Footer />
 		</div>
 		<script is:inline type="speculationrules">
 			{
