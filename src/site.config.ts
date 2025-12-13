@@ -40,6 +40,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/about/",
 		title: "About",
 	},
+	{
+		path: "/posts/",
+		title: "Posts",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/

@@ -3,7 +3,7 @@ title: "From TryHackMe to Bug Bounty Hunter"
 description: "A detailed account of my transition from learning on TryHackMe to becoming a bug bounty hunter, including my daily routine and tips for aspiring hunters."
 publishDate: "2025-12-12"
 tags: ["bug bounty", "tryhackme", "cybersecurity", "career"]
-draft: true
+draft: false
 ---
 
 ## The Early Days on TryHackMe
