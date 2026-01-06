@@ -188,4 +188,3 @@ This theme was inspired by [Hexo Theme Cactus](https://github.com/probberechts/h
 ## License
 
 MIT
-<!-- Temporary line for token refresh -->
